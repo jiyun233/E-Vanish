@@ -4,7 +4,6 @@ import { NDivider, NCard, NButton } from 'naive-ui'
 import Banner from './components/Banner.vue'
 import NewsCard from './components/NewsCard.vue'
 import Background from '../Background.vue'
-import '/vfonts/FiraCode.css'
 
 </script>
 
