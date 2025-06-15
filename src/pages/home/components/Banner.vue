@@ -11,14 +11,18 @@ import { defineComponent } from 'vue'
 
 <style scoped>
 .banner {
-    width: 100vw;
+    width: 75vw;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner img {
-    margin-top: 2vw;
-    width: 75vw;
-    height: auto;
+    width: 100%;
+    /* height: auto;
+    max-height: 100vh; */
+    margin-top: 25vh;
     box-shadow: 0px 0px 50px 0.5vw rgba(0, 0, 0, 0.8);
     border-radius: 20px;
     transition: all 0.5s ease-in-out;

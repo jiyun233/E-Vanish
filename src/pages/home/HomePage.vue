@@ -20,9 +20,15 @@ import Background from '../Background.vue'
 
 <style scoped>
 .home-page {
-    width: 75vw;
-    height: 100vw;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+    /* margin-top: 3vh; */
+    flex-direction: column;
+    /* overflow: hidden; */
 }
 
 .divider {

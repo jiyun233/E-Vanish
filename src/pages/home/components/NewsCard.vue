@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { NDivider, NCard, NButtonm, darkTheme, NGradientText } from 'naive-ui'
+import { NDivider, NCard, NButton, darkTheme, NGradientText } from 'naive-ui'
 </script>
 
 <template>
