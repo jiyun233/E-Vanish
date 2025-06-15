@@ -24,11 +24,14 @@ import Background from '../Background.vue'
     height: 100vh;
     display: flex;
     justify-content: center;
+    /* 水平居中 */
     align-items: center;
+    /* 垂直顶部对齐 */
     margin: auto;
-    /* margin-top: 3vh; */
     flex-direction: column;
+    /* 垂直堆叠子元素 */
     /* overflow: hidden; */
+
 }
 
 .divider {

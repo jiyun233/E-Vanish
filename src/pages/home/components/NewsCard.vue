@@ -24,7 +24,7 @@ import { NDivider, NCard, NButton, darkTheme, NGradientText } from 'naive-ui'
         <br />
         <br />
         <br />
-        <n-gradient-text class="hinded" :gradient="{
+        <n-gradient-text t class="hinded" :gradient="{
             deg: 90,
             from: 'rgb(255, 255, 255)',
             to: 'rgb(255, 255, 255)',
@@ -48,11 +48,13 @@ import { NDivider, NCard, NButton, darkTheme, NGradientText } from 'naive-ui'
 .title {
     font-size: 5vw;
     font-weight: bold;
+    color: rgba(0, 0, 0, 0);
 }
 
 .content {
     font-size: 1.5vw;
     font-weight: bold;
+    color: rgba(0, 0, 0, 0);
 }
 
 .hinded {
@@ -62,5 +64,6 @@ import { NDivider, NCard, NButton, darkTheme, NGradientText } from 'naive-ui'
     width: 100%;
     text-align: center;
     font-size: 3vw;
+    color: rgba(0, 0, 0, 0);
 }
 </style>
